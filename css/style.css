@@ -44,3 +44,46 @@ body {
     /* padding: 20px 40px; */
     
 }
+
+.h3 { color: rgb(255, 94, 0); 
+    text-align: center;}
+
+.button1 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-right: 80px;
+    opacity: 0.6;
+    position: relative;
+}
+.button1:hover {opacity: 1}
+
+.button2 {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #2239b9;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.5s;
+    cursor: pointer;
+    opacity: 0.6;
+    position: relative;
+    margin-left: 80px;
+    margin-top: 10px;
+    margin-right: 80px;
+}
+.button2:hover {opacity: 1}

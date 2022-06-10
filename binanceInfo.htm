@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<style>
-    #info h3 { color: rgb(255, 94, 0); }
-    p { margin-bottom: 25px; }
-</style>
+
 <html>
 <head>
 
-    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
 
     <title>Title</title>
 
 </head>
 <body>
-    <div id="info">
-    <h3 style="text-align: center;">How to convert your USDC to EUR</h3>
+    <div class="container shadow-lg p-3 px-5 mb-5 bg-body rounded h100">
 
+    <div class="row">
+    <div class="col">
+    <h3 class="h3">How to convert your USDC to EUR</h3>
+    
     <div style="text-align: left;
         margin-top: 50px;
         margin-right: 80px;
@@ -36,7 +38,7 @@
     USDC token from MetaMask. Copy this address and make sure you don't forget
     any digit, otherwise your money will be lost when sending it.
     </p>
-    <img class='imageClass' src='images/CreatePublicAdressBinance.jpg' width="900" />
+    <img class='imageClass' src='images/CreatePublicAdressBinance.jpg' width="600" />
     <p>
     Also, double check when sending your assets:
     The C-Chain addresses start with a “0” similar to Ethereum or
@@ -55,7 +57,7 @@
     Select USDC and EUR and the amount you want to convert and confirm.
     Binance does not take any fees for this conversion but there is a small spread.
     </p>
-    <img class='imageClass' src='images/ConvertUSDCtoEURonBinance.jpg' width="900"/>
+    <img class='imageClass' src='images/ConvertUSDCtoEURonBinance.jpg' width="600"/>
     <p>
     You should at some point see the corresponding EUR amount in your wallet -> overview.
     </p>
@@ -65,7 +67,16 @@
     steps for a SEPA money transfer (fee: 1€).
     </p>
     </div>
+    <input type="button" class="button2" onclick="location.href='index.htm'" value="Back" />
+                
     </div>
+    </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous">
+    </script>
 
 </body>
 </html>

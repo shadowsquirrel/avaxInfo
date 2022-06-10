@@ -1,4 +1,8 @@
 <!DOCTYPE html>
+<style>
+    #info h3 { color: rgb(255, 94, 0); }
+    p { margin-bottom: 25px; }
+</style>
 <html>
 <head>
 
@@ -8,17 +12,22 @@
 
 </head>
 <body>
+    <div id="info">
+    <h3 style="text-align: center;">How to convert your USDC to EUR</h3>
 
-    <h1>How to convert your USDC to EUR</h1>
-
-    The USDC we sent you is stored on the C-Chain of Avalanche.
+    <div style="text-align: left;
+        margin-top: 50px;
+        margin-right: 80px;
+        margin-left: 80px;">
+    <p>The USDC we sent you is stored on the C-Chain of Avalanche.
     When moving your assets out of your MetaMask Wallet, make sure your
     destination wallet is compatible. You can move your USDC using the
     cross-chain function, e.g. to a binance wallet.
     You need to set up an account on binance here.
     As an alternative to binance, you can also use Coinbase,
     FTX, Crypto.com and others but we go through how it’s done on binance (desktop):
-
+    </p>
+    <p>
     When you are logged in on binance, on the top go to wallet
     -> overview and select deposit -> crypto deposit.
     Click select coin and search for USDC.
@@ -26,33 +35,37 @@
     Binance now shows you your public address to which you need to send your
     USDC token from MetaMask. Copy this address and make sure you don't forget
     any digit, otherwise your money will be lost when sending it.
-
-    <img class='imageClass' src='images/someImage.png'/>
-
+    </p>
+    <img class='imageClass' src='images/CreatePublicAdressBinance.jpg' width="900" />
+    <p>
     Also, double check when sending your assets:
     The C-Chain addresses start with a “0” similar to Ethereum or
     Binance Smart Chain (BSC) addresses.
-
+    </p>
+    <p>
     Go to MetaMask, make sure you are using the Avalanche Network
     (should be displayed on the top) and your USDC is shown.
     Click send and paste the address you copied from binance to
-    transfer your USDC to your binance account. On the Avalanche B
-    lockchain, such transactions should cost the equivalent of less than one euro
-
-    <img class='imageClass' src='images/someImage.png'/>
-
+    transfer your USDC to your binance account. On the Avalanche Blockchain, such transactions should cost the equivalent of less than one euro
+    </p>
+    <img class='imageClass' src='images/USDCfromMetaMasktoBinance.jpg' width="400"/>
+    <p>
     In the next step you need to change your USDC to EUR on binance.
     For this, go to trade -> binance convert.
     Select USDC and EUR and the amount you want to convert and confirm.
     Binance does not take any fees for this conversion but there is a small spread.
-
-    <img class='imageClass' src='images/someImage.png'/>
-
+    </p>
+    <img class='imageClass' src='images/ConvertUSDCtoEURonBinance.jpg' width="900"/>
+    <p>
     You should at some point see the corresponding EUR amount in your wallet -> overview.
-
+    </p>
+    <p>
     To transfer your fiat currency to your bank account,
     go to wallet -> overview select withdraw and follow the
     steps for a SEPA money transfer (fee: 1€).
+    </p>
+    </div>
+    </div>
 
 </body>
 </html>

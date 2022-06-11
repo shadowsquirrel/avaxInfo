@@ -94,3 +94,28 @@ body {
     margin-right: 80px;
 }
 .button2:hover {opacity: 1}
+
+
+/* BINANCE INFO */
+
+.binanceInfo-image-container
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:50px;
+    margin-bottom:50px;
+    transition:0.2s;
+}
+.binanceInfo-image
+{
+    /* cursor:pointer; */
+    /* transition:0.2s; */
+    /* border:transparent solid; */
+    width:100%;
+    height:auto;
+}
+.binanceInfo-image:hover
+{
+    /* border: #bcbed2 solid; */
+}

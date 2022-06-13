@@ -1,7 +1,6 @@
-.somePicture
-{
-    height:200px;
-    width:auto;
+.somePicture {
+    height: 200px;
+    width: auto;
 }
 
 
@@ -28,13 +27,13 @@
 */
 body {
     background:
-    radial-gradient(black 3px, transparent 4px),
-    radial-gradient(black 3px, transparent 4px),
-    linear-gradient(#fff 4px, transparent 0),
-    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
-    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
-    #fff;
-    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+        radial-gradient(black 3px, transparent 4px),
+        radial-gradient(black 3px, transparent 4px),
+        linear-gradient(#fff 4px, transparent 0),
+        linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+        linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+        #fff;
+    background-size: 109px 109px, 109px 109px, 100% 6px, 109px 109px, 109px 109px;
     background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
 }
 
@@ -45,20 +44,23 @@ body {
 
 }
 
-.h3 { color: rgb(255, 94, 0);
-    text-align: center;}
-.walletInfo-container-button
-{
-    display:flex;
-    flex-direction:row;
-    justify-content: space-evenly;
-    margin-top:50px;
-    padding-bottom:50px;
+.h3 {
+    color: rgb(255, 94, 0);
+    text-align: center;
 }
-.button1 {
+
+.walletInfo-container-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.button {
     display: inline-block;
     border-radius: 4px;
-    background-color: #f4511e;
+
     border: none;
     color: #FFFFFF;
     text-align: center;
@@ -74,50 +76,41 @@ body {
     opacity: 0.6;
     position: relative;
 }
-.button1:hover {opacity: 1}
+
+.button:hover {
+    opacity: 1
+}
+
+
+.button1 {
+    background-color: #f4511e;
+}
 
 .button2 {
-    display: inline-block;
-    border-radius: 4px;
     background-color: #2239b9;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 28px;
-    padding: 20px;
-    width: 250px;
-    height: 85px;
-    transition: all 0.5s;
-    cursor: pointer;
-    opacity: 0.6;
-    position: relative;
-    margin-left: 80px;
-    margin-top: 10px;
-    margin-right: 80px;
 }
-.button2:hover {opacity: 1}
+
 
 
 /* BINANCE INFO */
 
-.binanceInfo-image-container
-{
-    display:flex;
+.binanceInfo-image-container {
+    display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top:50px;
-    margin-bottom:50px;
-    transition:0.2s;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    transition: 0.2s;
 }
-.binanceInfo-image
-{
+
+.binanceInfo-image {
     /* cursor:pointer; */
     /* transition:0.2s; */
     /* border:transparent solid; */
-    width:100%;
-    height:auto;
+    width: 100%;
+    height: auto;
 }
-.binanceInfo-image:hover
-{
+
+.binanceInfo-image:hover {
     /* border: #bcbed2 solid; */
 }

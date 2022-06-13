@@ -65,6 +65,7 @@ body {
     font-size: 28px;
     padding: 20px;
     width: 250px;
+    height: 85px;
     transition: all 0.5s;
     cursor: pointer;
     margin-left: 80px;
@@ -85,6 +86,7 @@ body {
     font-size: 28px;
     padding: 20px;
     width: 250px;
+    height: 85px;
     transition: all 0.5s;
     cursor: pointer;
     opacity: 0.6;
